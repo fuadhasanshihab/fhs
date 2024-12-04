@@ -41,7 +41,7 @@
           s = r(p.target.post, H);
         if (o = o && o[0] ? o[0].innerHTML : "", a.length && s.length) {
           var d = s[s.length - 1];
-          e.title = o, d.insertAdjacentHTML("afterend", '<span class="fi" id="#fi:' + j + '"></span>'), h = e.createElement("div");
+          e.title = o, d.insertAdjacentHTML("afterend", '<span class="fi position-fixed" id="#fi:' + j + '"></span>'), h = e.createElement("div");
           for (var f = 0, u = a.length; u > f; ++f) h.appendChild(a[f]);
           d.insertAdjacentHTML("afterend", h.innerHTML), c(), y = i.length ? i[0].href : !1, T = !1, j++, l("load", [p, t, n])
         }
@@ -113,7 +113,7 @@
       S = null,
       j = 1;
     if (y.length) {
-      y = y[0].href, H.insertAdjacentHTML("afterbegin", ''), h = e.createElement("div"), c();
+      y = y[0].href, H.insertAdjacentHTML("afterbegin", '<span class="fi position-fixed" id="#fi:0"></span>'), h = e.createElement("div"), c();
       var A = function () {
         E = H.offsetTop + H.offsetHeight, b = t.innerHeight, w = m.scrollTop || M.scrollTop, T || E > w + b || f()
       };
