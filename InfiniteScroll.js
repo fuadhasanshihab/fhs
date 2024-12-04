@@ -113,7 +113,7 @@
       S = null,
       j = 1;
     if (y.length) {
-      y = y[0].href, H.insertAdjacentHTML("afterbegin", '<span class="fi" id="#fi:0"></span>'), h = e.createElement("div"), c();
+      y = y[0].href, H.insertAdjacentHTML("afterbegin", ''), h = e.createElement("div"), c();
       var A = function () {
         E = H.offsetTop + H.offsetHeight, b = t.innerHeight, w = m.scrollTop || M.scrollTop, T || E > w + b || f()
       };
