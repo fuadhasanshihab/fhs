@@ -68,10 +68,10 @@
           anchor: ".next-page a"
         },
         text: {
-          load: '<a class="js-load" href="javascript:;">আরও</a>',
-          loading: '<span class="js-loading" style="cursor:wait;">লোড হচ্ছে\u2026</span>',
-          loaded: '<span class="js-loaded">সমাপ্ত</span>',
-          error: '<a class="js-error" href="javascript:;">দুঃখিত, একটি ত্রুটি দেখা দিয়েছে</a>'
+          load: '<a class="js-load btn btn-primary rounded-pill" href="javascript:;">আরও</a>',
+          loading: '<span class="js-loading btn btn-primary rounded-pill" style="cursor:wait;"><span class="spinner-border spinner-border-sm me-1" aria-hidden="true"></span> লোড হচ্ছে</span>',
+          loaded: '<span class="js-loaded btn btn-primary rounded-pill">সমাপ্ত</span>',
+          error: '<a class="js-error btn btn-danger rounded-pill" href="javascript:;">দুঃখিত, একটি ত্রুটি দেখা দিয়েছে!</a>'
         },
         state: {
           load: u + "load",
