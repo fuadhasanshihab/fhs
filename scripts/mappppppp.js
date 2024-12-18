@@ -31,7 +31,7 @@ document.getElementById('map').innerHTML += `
 
 <div class="col-6 px-0">
 <div class="d-flex justify-content-between dist_news_srch form-control col-6">
-<span>অনুসন্ধান করুন </span><svg aria-hidden="true" class="icon me-1" width="15px" height="15px"><use xlink:href="#search-icon"></use></svg>
+<span>অনুসন্ধান করুন </span><svg aria-hidden="true" class="icon" width="13px" height="13px"><use xlink:href="#search-icon"></use></svg>
 </div>
 </div>
 
